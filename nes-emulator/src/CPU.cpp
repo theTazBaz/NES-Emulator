@@ -113,7 +113,6 @@ namespace sn
             return;
 
         m_skipCycles = 0;
-
         if (m_pendingNMI)
         {
             interruptSequence(NMI);
